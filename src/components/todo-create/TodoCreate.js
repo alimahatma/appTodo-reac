@@ -12,7 +12,6 @@ const handleSubmit = (event) => {
         title: getInputTodo
     }
     
-    // console.log(newTodo);
     props.onCreateTodo(newTodo)
     setInpuTodo(' ')
 
