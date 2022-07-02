@@ -18,7 +18,7 @@ const Todo = () => {
 
     return  (
         <div>
-            <h3>Todo List</h3>
+            <h3>Daftar Pekerjaan Hari Ini</h3>
             <TodoCreate onCreateTodo={eventCreateTodo}/>
             <TodoList dataTodos={getTodos}/>
         </div>
